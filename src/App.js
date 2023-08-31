@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import Results from "./components/Results";
 import axios from "axios";
-const APIURL = "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=04c35731a5ee918f014970082a0088b1&page=1"
-const SEARCHAPI = "https://api.themoviedb.org/3/search/movie?&api_key=04c35731a5ee918f014970082a0088b1&query="
+const APIURL = `https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=${process.env.REACT_APP_SEARCH_API_KEY}&page=1`
+const SEARCHAPI = `https://api.themoviedb.org/3/search/movie?&api_key=${process.env.REACT_APP_SEARCH_API_KEY}&query=`
 
 function App() {
   
