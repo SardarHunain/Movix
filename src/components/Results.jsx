@@ -1,7 +1,7 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 
 export default function Results(props) {
-  
+    
     const boxes = props.movies.map(
         (item,index)=>{
             return <Box key={index} image={item.poster_path} title={item.original_title} rating={item.vote_average}/>

@@ -28,6 +28,28 @@
   color: #61dafb;
 }
 
+#root{
+  background-image: url('./Assets//Images/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+
+}
+
+#scrollable{
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
