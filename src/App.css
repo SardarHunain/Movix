@@ -28,6 +28,16 @@
   color: #61dafb;
 }
 
+
+.blur {
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  
+}
+
+    
+
 #root{
   background-image: url('./Assets//Images/bg.jpg');
   background-repeat: no-repeat;
@@ -40,7 +50,7 @@
 
 }
 
-#scrollable{
+.scrollable{
   height: 100vh;
   width: 100vw;
   overflow: hidden;

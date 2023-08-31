@@ -58,7 +58,7 @@ function App() {
       <h1 className="text-[50px] bg-black text-white text-center">
         MOVIX
       </h1>
-      <div className='max-w-[1240px] shadow-xl min-h-[400px] mx-auto p-3 bg-black' id="scrollable">
+      <div className='max-w-[1240px] shadow-xl min-h-[400px] mx-auto p-3 bg-black scrollable' >
         <input type='search' value={search} placeholder="search your favourite movies here" onChange={changeSearch} className="w-full border border-black rounded p-3 text-slate-700" />
         {
           movies.length === 0
