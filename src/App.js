@@ -50,7 +50,7 @@ function App() {
     ()=>{
       search === "" ? getAllMovies() : getSearchedMovies();
     },
-    [search, getAllMovies, getSearchedMovies]
+    [search]
   )
 
   return (
